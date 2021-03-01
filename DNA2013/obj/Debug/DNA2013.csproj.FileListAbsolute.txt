@@ -1,0 +1,6 @@
+F:\Job\XYSoftware\DNA\DNA2013\bin\Debug\DNA2013.xml
+F:\Job\XYSoftware\DNA\DNA2013\bin\Debug\DNA2013.dll
+F:\Job\XYSoftware\DNA\DNA2013\bin\Debug\DNA2013.pdb
+F:\Job\XYSoftware\DNA\DNA2013\obj\Debug\DNA2013.csproj.CoreCompileInputs.cache
+F:\Job\XYSoftware\DNA\DNA2013\obj\Debug\DNA2013.dll
+F:\Job\XYSoftware\DNA\DNA2013\obj\Debug\DNA2013.pdb

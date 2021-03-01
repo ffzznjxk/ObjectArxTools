@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47C1A2FC-CFA7-4B60-A7FB-2161EFEED3E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DotNetARX</RootNamespace>
+    <AssemblyName>DNA2012</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\DNA2012.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AcCui">
+      <HintPath>E:\ObjectARX\ObjectARX 2012\inc\AcCui.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AcDbMgd">
+      <HintPath>E:\ObjectARX\ObjectARX 2012\inc\AcDbMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AcMgd">
+      <HintPath>E:\ObjectARX\ObjectARX 2012\inc\AcMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\DNA\BlockTools.cs">
+      <Link>BlockTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\AnnotateTools.cs">
+      <Link>AnnotateTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\ArcTools.cs">
+      <Link>ArcTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\CircleTools.cs">
+      <Link>CircleTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\CuiLoader.cs">
+      <Link>CuiLoader.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\CuiTools.cs">
+      <Link>CuiTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\DictTools.cs">
+      <Link>DictTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\DimStyleTools.cs">
+      <Link>DimStyleTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\DimTools.cs">
+      <Link>DimTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\DocumentTools.cs">
+      <Link>DocumentTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\Draw3DTools.cs">
+      <Link>Draw3DTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\EllipseTools.cs">
+      <Link>EllipseTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\EntTools.cs">
+      <Link>EntTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\FileLocation.cs">
+      <Link>FileLocation.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\GeoTools.cs">
+      <Link>GeoTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\GroupTools.cs">
+      <Link>GroupTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\HatchTools.cs">
+      <Link>HatchTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\IniClass.cs">
+      <Link>IniClass.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\BlockJigTools.cs">
+      <Link>BlockJigTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\LayerTools.cs">
+      <Link>LayerTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\LayoutTools.cs">
+      <Link>LayoutTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\LineTypeTools.cs">
+      <Link>LineTypeTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\LinqToCAD.cs">
+      <Link>LinqToCAD.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\ListTools.cs">
+      <Link>ListTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\MLineTools.cs">
+      <Link>MLineTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\PlotSettingsEx.cs">
+      <Link>PlotSettingsEx.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\PlotTools.cs">
+      <Link>PlotTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\PolylineTools.cs">
+      <Link>PolylineTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\Properties\AssemblyInfo.cs">
+      <Link>Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\RegionTools.cs">
+      <Link>RegionTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\Register.cs">
+      <Link>Register.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\SelectionTools.cs">
+      <Link>SelectionTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\SummaryInfoTools.cs">
+      <Link>SummaryInfoTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\TableJigTools.cs">
+      <Link>TableJigTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\TableTools.cs">
+      <Link>TableTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\TextStyleTools.cs">
+      <Link>TextStyleTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\TextTools.cs">
+      <Link>TextTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\Tools.cs">
+      <Link>Tools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\UCSTools.cs">
+      <Link>UCSTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\ViewportTools.cs">
+      <Link>ViewportTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\ViewTableTools.cs">
+      <Link>ViewTableTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\XDataTools.cs">
+      <Link>XDataTools.cs</Link>
+    </Compile>
+    <Compile Include="..\DNA\XrefTools.cs">
+      <Link>XrefTools.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
